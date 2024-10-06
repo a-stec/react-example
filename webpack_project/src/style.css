@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "ClashDisplay";
+    src:
+      local("ClashDisplay"),
+      url("./fonts/ClashDisplay-Regular.woff2") format("woff2"),
+      url("./fonts/ClashDisplay-Regular.woff") format("woff");
+    font-weight: 400;
+}
+
+* {
+    font-family: 'ClashDisplay';
+}
+
+.body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 6px 3px 20px -5px #333;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    margin-bottom: 10px;
+    width: 64px;
+    height: 18px;
+}
+
+.h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 3px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #1974d2;
+    color: white;
+}

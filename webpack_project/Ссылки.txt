@@ -1,0 +1,11 @@
+Бандлер Webpack
+https://webpack.js.org/
+https://webpack.js.org/loaders/
+
+Гайд по Webpack
+https://vc.ru/dev/418917-krupnyi-gaid-po-webpack
+
+Работа с TypeScript
+https://webpack.js.org/guides/typescript/
+https://scriptdev.ru/book/project/globals/
+
